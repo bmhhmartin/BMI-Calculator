@@ -1,0 +1,96 @@
+.wrapper {
+    margin: 0px auto;
+    padding: 50px 20px;
+    max-width: 600px;
+}
+
+.wrapper h1 {
+    font-family: 'Black Ops One', cursive;
+    color: rgb(241, 0, 0);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+body {
+    background: url(./images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.form-control {
+    border-color: red;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: greenyellow;
+    outline: 0;
+    box-shadow: none;
+}
+
+.my__card {
+    max-width: 300px;
+}
+
+.bmi_image {
+    max-width: 300px;
+    display: inline-block;
+}
+
+.report,
+.result {
+    font-family: 'Poppins', sans-serif;
+}
+
+span.input-group-text {
+    background: red;
+    color: white;
+    font-weight: 500;
+    width: 82px;
+}
+
+.bmi_alert {
+    background: honeydew;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h5 {
+    background: white;
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+}
+
+.inches,
+.weights {
+    position: relative;
+}
+
+.inches::after {
+    position: absolute;
+    content: 'Inch';
+    color: red;
+    right: 33px;
+    z-index: 20;
+    top: 7px;
+}
+
+.weights::after {
+    position: absolute;
+    content: 'Kg';
+    color: red;
+    right: 33px;
+    z-index: 20;
+    top: 7px;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+}
